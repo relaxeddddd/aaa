@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* =====HEADER===== */
+@import url(/css/header.css);
+/* =====HEADER===== */
+
+/* =====MAIN===== */
+@import url(/css/main.css);
+/* =====MAIN===== */
+
+/* =====RECEPT===== */
+@import url(/css/recept.css);
+/* =====RECEPT===== */
+
+/* =====ARTICLE===== */
+@import url(/css/article.css);
+/* =====ARTICLE===== */
+
+/* =====TEAM===== */
+@import url(/css/team.css);
+/* =====TEAM===== */
+
+/* =====NEWS===== */
+@import url(/css/news.css);
+/* =====NEWS===== */
+
+/* =====LOGIN===== */
+@import url(/css/login.css);
+/* =====LOGIN===== */
+
+/* ======FOOTER===== */
+@import url(/css/footer.css);
+/* ======FOOTER===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: "";
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: "";
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/*=============ОБНУЛЕНИЕ СТИЛЕЙ=============*/
+
+body {
+    height: 100%;
+    background: #eaeaea;
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.logo__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo img {
+
+    padding: 255px 0 120px 0;
+    display: inline-block;
+
+}
+
+@media (max-width: 400px) {
+    .logo img {
+        width: 250px;
+        padding: 155px 0 120px 0;
+    }
+}
+
+
+

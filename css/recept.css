@@ -1,0 +1,90 @@
+.recept {
+    margin-bottom: 80px;
+}
+
+
+.recept__row {
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px 13px 0px rgba(11, 12, 12, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0 30px 0;
+    justify-content: center;
+}
+
+.recept__item {
+    margin-bottom: 15px;
+    padding: 0 20px;
+    flex: 0 1 30.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .recept__item {
+        padding: 0;
+    }
+}
+
+.recept__item-img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #eaeaea;
+}
+
+@media (max-width: 700px) {
+    .recept__item img {}
+}
+
+.recept__item-content {}
+
+.salat__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.salat__info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: #555555;
+
+    display: flex;
+}
+
+.salat__info-time {
+    font-family: 'Open Sans', sans-serif;
+    border-right: 1px solid #6f6f6f;
+    padding-right: 6px;
+    height: 13px
+}
+
+.salat__info-time img {
+    padding-top: 1px;
+}
+
+.salat__info-comments {
+    padding-left: 6px;
+    font-family: 'Open Sans', sans-serif;
+    height: 13px
+}
+
+.salat__info-comments img {
+    padding-top: 2px;
+}
+
+.salat__info-views {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3px;
+    height: 13px
+}
+
+.salat__info-views img {
+    padding-top: 3px;
+}
